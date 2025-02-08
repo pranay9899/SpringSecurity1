@@ -22,7 +22,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SecurityConfig {
 
     private final JwtFilter jwtFilter;
-    // this is configured
+    // this filter is for better management of jwt
 
     private final UserDetailsService userDetailsService;
 
